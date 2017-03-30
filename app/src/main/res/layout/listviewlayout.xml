@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dp"
+        android:padding="3dp"
+        android:text="1 "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        android:textStyle="italic"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvId"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:text="Eoghan Nolan"
+        android:textColor="#050505" />
+
+    <TextView
+        android:id="@+id/tvHandicap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvId"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505"
+        android:text="14"
+        android:layout_below="@+id/tvName"
+        android:layout_toEndOf="@+id/tvId" />
+
+    <TextView
+        android:id="@+id/tvPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvId"
+        android:text="0851297842"
+        android:layout_below="@id/tvHandicap"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#050505" />
+
+</RelativeLayout>

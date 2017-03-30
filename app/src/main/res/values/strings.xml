@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SocietyGolf</string>
+
+    <!-- Label for dropdown menu option if the golfer is male [CHAR LIMIT=20] -->
+    <string name="gender_male">Male</string>
+
+    <!-- Label for dropdown menu option if the golfer is female [CHAR LIMIT=20] -->
+    <string name="gender_female">Female</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_clear">Clear</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_back">Return to Golfers List</string>
+</resources>
